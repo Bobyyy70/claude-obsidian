@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-04-08T19:00:00
+updated: 2026-05-06T00:00:00
 tags:
   - meta
   - hot-cache
@@ -19,10 +19,10 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-04-08: v1.4.1 hotfix shipped, plugin confirmed installed and enabled
+2026-05-06: Plugin reinstalled on remote server. MCPVault configured. Vault synced via git.
 
 ## Plugin State
-- **Version**: 1.4.1 (installed, enabled, user scope)
+- **Version**: 1.4.3 (installed, enabled, user scope)
 - **Install ID**: `claude-obsidian@claude-obsidian-marketplace`
 - **Releases**: v1.1, v1.4.0, v1.4.1 on GitHub
 - **Skills**: 10 (wiki, wiki-ingest, wiki-query, wiki-lint, save, autoresearch, canvas, defuddle, obsidian-bases, obsidian-markdown)
@@ -58,11 +58,19 @@ There is no `claude plugin install github:owner/repo` shortcut. Both steps are r
 ## Ecosystem Research (Done 2026-04-08)
 16+ Claude + Obsidian projects mapped. Full feature matrix at [[claude-obsidian-ecosystem]]. Prioritized backlog at [[cherry-picks]]. Top competitors: [[Ar9av-obsidian-wiki]] (multi-agent + delta tracking), [[rvk7895-llm-knowledge-bases]] (multi-depth query), [[ballred-obsidian-claude-pkm]] (goal cascade + auto-commit), [[kepano-obsidian-skills]] (authoritative Obsidian skills from Obsidian's own creator).
 
+## Server Setup (2026-05-06)
+- Vault lives on remote server at `~/repos/claude-obsidian/`
+- Obsidian runs on local machine: clone the repo, `git pull` to sync
+- MCP: `obsidian-vault` via MCPVault (bunx, filesystem-based, no Obsidian needed server-side)
+- Failing smithery MCP (`claude.ai Obsidian`) can be removed from claude.ai web settings
+- Sync workflow: Claude writes on server, `git push`, `git pull` on local machine
+
 ## Active Threads
 - v1.5.0 backlog: `/adopt` command, vault graph analysis in wiki-lint, semantic search via qmd, Marp output
 - `community` remote (`avalonreset-pro/claude-obsidian`) still has pre-rewrite history. Force-push needed next time that remote is configured.
 
 ## Repo Locations
-- Working: `~/Desktop/claude-obsidian/`
+- Server: `~/repos/claude-obsidian/` (active)
+- Local (sync via git pull): clone from https://github.com/AgriciDaniel/claude-obsidian
 - Public: https://github.com/AgriciDaniel/claude-obsidian
 - Community (private): https://github.com/avalonreset-pro/claude-obsidian
