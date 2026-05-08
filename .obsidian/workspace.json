@@ -4,48 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "477f1cf965ca606e",
+        "id": "09e970bdcdc94894",
         "type": "tabs",
         "children": [
           {
-            "id": "a31de1b302cdc5cf",
+            "id": "649b907e4d53f06b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "1ddf905423a8598d",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "thino_view"
-            }
-          },
-          {
-            "id": "61749825e48e4b66",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
+              "type": "bases",
               "state": {
-                "file": "wiki/Wiki Map.canvas",
-                "viewState": {
-                  "x": -413.9875924804161,
-                  "y": 621.2439739591268,
-                  "zoom": -1.292836204863978
-                }
+                "file": "Sans titre.base",
+                "viewName": "Tableau"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Wiki Map"
+              "icon": "lucide-table",
+              "title": "Sans titre"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,16 +182,38 @@
               "icon": "lucide-file-signature",
               "title": "Notes de bas de page"
             }
+          },
+          {
+            "id": "15ffcf5e4363ec99",
+            "type": "leaf",
+            "state": {
+              "type": "notemd-sidebar-view",
+              "state": {},
+              "icon": "wand",
+              "title": "Espace de travail Notemd"
+            }
+          },
+          {
+            "id": "30e3316a8073268e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 1069.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "zk-prefixer:Créer une nouvelle note unique": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
@@ -236,8 +233,11 @@
       "publish:Publier les modifications": false
     }
   },
-  "active": "61749825e48e4b66",
+  "active": "5565f1231fe95c42",
   "lastOpenFiles": [
+    "Sans titre.base",
+    "wiki/Wiki Map.canvas",
+    "WIKI.md",
     "wiki/meta/claude-obsidian-cover.gif",
     "README.md.tmp.224546.1775562198004",
     "README.md.tmp.224546.1775562190155",
@@ -282,14 +282,12 @@
     "wiki/hot.md",
     "wiki/index.md",
     "wiki/log.md",
-    "wiki/Wiki Map.canvas",
     "Banana Images.canvas",
     "Untitled 1.canvas",
     "Excalidraw/Drawing 2026-04-07 13.52.12.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2026-04-07 13.51.04.excalidraw.md",
     "Excalidraw/Drawing 2026-04-07 13.51.12.excalidraw.md",
-    "wiki/comparisons/Wiki vs RAG.md",
     "projects/visual-vault/design-ideas.canvas"
   ]
 }
