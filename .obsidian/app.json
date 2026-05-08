@@ -9,5 +9,9 @@
     "CLAUDE.md",
     "WIKI.md",
     "Welcome.md"
-  ]
+  ],
+  "uriCallbacks": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true
 }
