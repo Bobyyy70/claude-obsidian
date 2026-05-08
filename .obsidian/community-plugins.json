@@ -10,5 +10,13 @@
   "obsidian-git",
   "dataview",
   "obsidian-excalidraw-plugin",
-  "voicenotes-sync"
+  "voicenotes-sync",
+  "auto-template-trigger",
+  "ai-templater",
+  "nexus-ai-chat-importer",
+  "note-chain",
+  "obsidian-local-rest-api",
+  "fileorganizer2000",
+  "images-to-notes",
+  "cannoli"
 ]
